@@ -1,0 +1,360 @@
+CRITICAL - 2022-03-22 01:36:15 --> Class 'App\Models\SuratMasuk_Model' not found
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->__construct()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-03-22 01:36:55 --> Table 'sekertariat.surat_masukus' doesn't exist
+CRITICAL - 2022-03-22 01:36:55 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\codeigniter4\app\Models\HomeAdmin_Modal.php(11): CodeIgniter\Database\BaseBuilder->countAll()
+#1 D:\xampp\htdocs\codeigniter4\app\Controllers\HomeAdmin.php(20): App\Models\HomeAdmin_Modal->tot_suratm()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\HomeAdmin->index()
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeAdmin))
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-22 01:37:29 --> Table 'sekertariat.surat_masukus' doesn't exist
+CRITICAL - 2022-03-22 01:37:29 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\codeigniter4\app\Models\HomeAdmin_Modal.php(11): CodeIgniter\Database\BaseBuilder->countAll()
+#1 D:\xampp\htdocs\codeigniter4\app\Controllers\HomeAdmin.php(20): App\Models\HomeAdmin_Modal->tot_suratm()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\HomeAdmin->index()
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeAdmin))
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-22 01:38:32 --> Table 'sekertariat.surat_masukusuk' doesn't exist
+CRITICAL - 2022-03-22 01:38:32 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\codeigniter4\app\Models\HomeAdmin_Modal.php(11): CodeIgniter\Database\BaseBuilder->countAll()
+#1 D:\xampp\htdocs\codeigniter4\app\Controllers\HomeAdmin.php(20): App\Models\HomeAdmin_Modal->tot_suratm()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\HomeAdmin->index()
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeAdmin))
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-22 01:39:06 --> Undefined variable: tot_suratk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\homeAdmin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 36, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/homeAdmin', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\HomeAdmin.php(24): view('admin/homeAdmin', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\HomeAdmin->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeAdmin))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:40:16 --> Class 'App\Models\SuratMasuk_Model' not found
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->__construct()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-22 01:40:42 --> Class 'App\Models\SuratMasuk_Model' not found
+#0 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->__construct()
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-22 01:41:55 --> Undefined variable: suratmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 77, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:42:25 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:43:28 --> Undefined index: tgl_suratmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 80, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:44:04 --> Undefined index: tgl_suratmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 88, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:44:23 --> Undefined index: tgl_suratmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 88, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:45:07 --> Undefined index: gl_suratkeluar
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 88, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 01:45:39 --> Undefined variable: pager
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\suratkeluar.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 97, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\SuratKeluar.php(118): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->ubahsuratkeluar()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 03:35:59 --> Undefined variable: suratkeluar
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\memomasuk.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 76, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/memomasuk', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\MemoMasuk.php(32): view('admin/memomasuk', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\MemoMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemoMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 03:36:12 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\memomasuk.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/memomasuk', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\MemoMasuk.php(32): view('admin/memomasuk', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\MemoMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemoMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 20:28:24 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\memokeluar.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/memokelua...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\MemoKeluar.php(32): view('admin/memokelua...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\MemoKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemoKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-03-22 20:29:31 --> Unknown column 'no_memo' in 'field list'
+CRITICAL - 2022-03-22 21:08:26 --> Undefined variable: memokeluar
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailmasuk.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 76, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailmasu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailMasuk.php(32): view('admin/emailmasu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 21:08:41 --> Undefined variable: memokeluar
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailmasuk.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 76, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailmasu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailMasuk.php(32): view('admin/emailmasu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 21:08:59 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailmasuk.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 162, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailmasu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailMasuk.php(32): view('admin/emailmasu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:03:50 --> Undefined variable: emailmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 77, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(32): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:04:12 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(32): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:15:14 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailmasuk.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 174, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailmasu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailMasuk.php(32): view('admin/emailmasu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailMasuk->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailMasuk))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:26:34 --> Undefined variable: emailmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(32): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:26:57 --> Undefined variable: emailmasuk
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 78, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(32): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:27:46 --> Call to undefined method App\Models\EmailKeluar_Model::getdata
+#0 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(64): CodeIgniter\Model->__call('getdata', Array)
+#1 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->addemailkeluar()
+#2 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-22 22:45:03 --> Undefined variable: pager
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(121): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->ubahemailkeluar()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:45:22 --> Undefined variable: pager
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(121): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->ubahemailkeluar()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:47:52 --> Undefined variable: row
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 174, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(32): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->index()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 22:50:58 --> Undefined variable: pager
+#0 D:\xampp\htdocs\codeigniter4\app\Views\admin\emailkeluar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 99, Array)
+#1 D:\xampp\htdocs\codeigniter4\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailkelu...', Array, true)
+#4 D:\xampp\htdocs\codeigniter4\app\Controllers\EmailKeluar.php(121): view('admin/emailkelu...', Array)
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\EmailKeluar->ubahemailkeluar()
+#6 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailKeluar))
+#7 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-22 23:25:21 --> Invalid file: formulir.php
+#0 D:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulir.php')
+#1 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('formulir', Array, true)
+#2 D:\xampp\htdocs\codeigniter4\app\Controllers\Formulir.php(11): view('formulir')
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Formulir->index()
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir))
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-22 23:25:55 --> Invalid file: formulir.php
+#0 D:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulir.php')
+#1 D:\xampp\htdocs\codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('formulir', Array, true)
+#2 D:\xampp\htdocs\codeigniter4\app\Controllers\Formulir.php(11): view('formulir')
+#3 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Formulir->index()
+#4 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Formulir))
+#5 D:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\codeigniter4\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-03-22 23:37:43 --> Unknown column 'created_at' in 'field list'
+ERROR - 2022-03-22 23:40:09 --> Unknown column 'created_at' in 'field list'
+ERROR - 2022-03-22 23:41:30 --> Unknown column 'created_at' in 'field list'
+ERROR - 2022-03-22 23:43:31 --> Unknown column 'created_at' in 'field list'

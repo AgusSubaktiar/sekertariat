@@ -1,0 +1,64 @@
+CRITICAL - 2022-09-19 02:35:01 --> Undefined variable: judul
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Views\admin\emailmasuk.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 129, Array)
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\Common.php(1089): CodeIgniter\View\View->render('admin/emailmasu...', Array, true)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\EmailMasuk.php(18): view('admin/emailmasu...')
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\EmailMasuk->index()
+#6 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailMasuk))
+#7 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-19 21:29:56 --> View themes, no current section.
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Views\admin\suratmasuk.php(214): CodeIgniter\View\View->endSection()
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratmasu...', Array, true)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\SuratMasuk.php(40): view('admin/suratmasu...', Array)
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\SuratMasuk->index()
+#6 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-19 21:35:18 --> Undefined variable: row
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Views\admin\suratkeluar.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 174, Array)
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\Common.php(1089): CodeIgniter\View\View->render('admin/suratkelu...', Array, true)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\SuratKeluar.php(32): view('admin/suratkelu...', Array)
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\SuratKeluar->index()
+#6 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-19 21:35:27 --> Undefined variable: row
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Views\admin\memomasuk.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp\\htdocs...', 168, Array)
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\Common.php(1089): CodeIgniter\View\View->render('admin/memomasuk', Array, true)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\MemoMasuk.php(32): view('admin/memomasuk', Array)
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\MemoMasuk->index()
+#6 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MemoMasuk))
+#7 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-09-19 22:03:47 --> Undefined property: App\Controllers\Table::$TableModel
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\Table.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\Table->index()
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table))
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-09-19 22:20:45 --> Undefined property: App\Controllers\Table::$TableModel
+#0 D:\xampp\htdocs\SEKERTARIAT_app\app\Controllers\Table.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp\\htdocs...', 11, Array)
+#1 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(825): App\Controllers\Table->index()
+#2 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Table))
+#3 D:\xampp\htdocs\SEKERTARIAT_app\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\SEKERTARIAT_app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\SEKERTARIAT_app\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
